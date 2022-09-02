@@ -88,7 +88,7 @@ header h1{
 	-webkit-text-fill-color: #e9f50870;
 }
 
-/*GRID COMMANDS & FLEX*/
+/*GRID COMMANDS & FLEX (Para mi referencia)*/
 
 .gridIndex{
 	display: grid;
@@ -278,6 +278,6 @@ align-items: center;
 
 	@media only screen and (max-width: 400px){ 
 		.footerIcons {
-			flex-direction: column;
+			flex-direction: row;
 		}
 	}
