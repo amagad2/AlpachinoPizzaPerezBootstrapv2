@@ -20,16 +20,26 @@ body {
 	--animate-duration: 2s;
 }
 
-li {
+header li {
 	display: inline;
 	list-style: none;
+	text-decoration: none;
 	color: rgb(240, 246, 243);
 	font-size: 30px;
 	padding: 10px;
 	margin: 10px;
 }
 
-a {
+nav a{
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+header a {
+	text-decoration: none;
+}
+
+footer a {
 	text-decoration: none;
 }
 
@@ -139,6 +149,7 @@ background-color: #06825f
 
 .footerIcons{
 	display: flex;
+	text-decoration: none;
 }
 
 .footerLogo {
@@ -198,6 +209,7 @@ align-items: center;
 		align-items: center;
 		margin-top: 10px!important;
 	}
+	
 
 }
 

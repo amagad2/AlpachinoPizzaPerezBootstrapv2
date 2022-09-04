@@ -24,6 +24,8 @@
     <title>AL Pachino's Pizza</title>
   </head>
   <body>
+
+    
     <!-- HEADER SECTION -->
     <header class="row">
       <div
@@ -39,20 +41,43 @@
       </div>
       <nav class="nav bgColorNav">
         <ul>
-        <li class="btn btn-secondary bgColorMenu"><a href="#.html">Inicio</a></li>
-        <li class="btn btn-secondary"><a href="../pages/menu.html">Menu</a></li>
-        <li class="btn btn-secondary"><a href="../pages/contacto.html">Contacto</a></li>
-        <li class="btn btn-secondary"><a href="../pages/quienessomos.html">Quienes Somos</a></li>
-        <li class="btn btn-secondary"><a href="../pages/carrito.html">Carrito</a></li>
+        <li class="btn btn-outline-success"><a href="#.html">Inicio</a></li>
+        <li class="btn btn-outline-success"><a href="../pages/menu.html">Menu</a></li>
+        <li class="btn btn-outline-success"><a href="../pages/contacto.html">Contacto</a></li>
+        <li class="btn btn-outline-success"><a href="../pages/quienessomos.html">Quienes Somos</a></li>
+        <li class="btn btn-outline-success"><a href="../pages/carrito.html">Carrito</a></li>
         </ul>
       </nav>
       </header>
 
     <!-- MAIN SECTION -->
-    <main class="row bgColor pizza-images">
-      <img class="col-12 col-md-3 border" src="images/pizza1.jpg" />
-      <img class="col-12 col-md-3 border" src="images/pizza2.jpg" />
-      <img class="col-12 col-md-3 border" src="images/pizza3.jpg" />
+    <main class="bgColor">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active border">
+            <img src="images/pizza1.jpg" class="d-block w-100" alt="Pizza 1">
+          </div>
+          <div class="carousel-item border">
+            <img src="images/pizza2.jpg" class="d-block w-100" alt="Pizza 2">
+          </div>
+          <div class="carousel-item border">
+            <img src="images/pizza3.jpg" class="d-block w-100" alt="Pizza 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
 
     <!-- FOOTER SECTION -->
